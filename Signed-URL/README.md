@@ -17,4 +17,13 @@ By using signed URLs, we can ensure that only the user who was initially subscri
 
 Overall, this repository provides a useful example of how to use signed URLs in Laravel to secure your applications and protect your users' data.
 
+## Getting Started
+
+To use the source code in this repository for your own project, you can follow these steps:
+
+1. Download or clone the repository to your local machine.
+2. Install any required dependencies using Composer or another package manager.
+3. Integrate the relevant source code into your project by copying over the necessary files and directories.
+4. Modify the code as needed to suit your specific requirements.
+
 
