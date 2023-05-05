@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f5ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 400px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  padding: 16px;
+}
+
+.holder img {
+  width: 250px;
+  height: auto;
+}
+
+.holder a {
+  text-decoration: none;
+  display: table;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 8px 40px;
+  line-height: 21px;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+  background-color: #ffb600;
+  -webkit-tap-highlight-color: transparent;
+}
